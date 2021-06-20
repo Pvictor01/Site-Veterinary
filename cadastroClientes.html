@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styleCadClientes.css">
+  <title>Cadastro</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="./home.html">
+        <img src="./styles/images/logo-mypet-preto.png" alt="logoMyPet">
+      </a>
+    </div>
+  </header>
+
+  <div class="content-center">
+    <h1>Registre-se</h1>
+
+    <form action="">
+      <div class="email">
+        <input type="email" id="email" placeholder="Email"><br>
+        <input type="email" id="email" placeholder="Digite o email novamente"><br>
+      </div>
+
+      <div class="senha">
+        <input type="password" id="senha" placeholder="Senha"><br>
+        <input type="password" id="senha" placeholder="Digite a senha novamente"><br>
+      </div>
+
+      <div class="send">
+        <button onclick="clear()" id="clear">Limpar</button>
+        <button onclick="sendData()" id="send">Registrar-se</button>
+      </div>  
+
+      <p>Já tem uma conta?<a href="./login.html" id="cadastro"> Faça login</a></p>
+    </form>
+  </div>
+  <script src="./scrypts/cadastro.js"></script>
+</body>
+</html>

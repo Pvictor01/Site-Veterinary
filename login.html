@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styleLogin.css">
+  <title>Login</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="./home.html">
+        <img src="./styles/images/logo-mypet-preto.png" alt="logoMyPet">
+      </a>
+    </div>
+  </header>
+
+  <div class="content-center">
+    <h1>Login</h1>
+    
+    <form action="">
+      <div class="email">
+        <input type="email" name="" id="email" placeholder="Email" required><br>
+      </div>
+      
+      <div class="password">
+        <input type="password" name="" id="password" placeholder="Senha" required><br>
+      </div>
+
+      <div class="send">
+        <button onclick="sendData()" id="send">Login</button>
+      </div> 
+
+      <p>Não tem uma conta?<a href="./cadastroClientes.html" id="cadastro"> Cadastre-se</a></p>
+    </form>
+  </div>
+  <script src="./scrypts/login.js"></script>
+</body>
+</html>
